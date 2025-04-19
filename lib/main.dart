@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:aturin/dummy/home_page.dart';
+import 'package:aturin/dummy/task_page.dart';
+import 'package:aturin/dummy/profile_page.dart';
 
 void main() {
   runApp(const Aturin());
@@ -16,11 +19,11 @@ class Aturin extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: const HomePage(),
       routes: {
-        '/homepage': (context) => HomePage(),
-        '/taskpage': (context) => TaskPage(),
-        '/profilepage': (context) => ProfilePage(),
+        '/homepage': (context) => const HomePage(),
+        '/taskpage': (context) => const TaskPage(),
+        '/profilepage': (context) => const ProfilePage(),
       },
     );
   }
