@@ -1,4 +1,4 @@
-package com.example.relax_fik
+package com.example.aturin
 
 import io.flutter.embedding.android.FlutterActivity
 

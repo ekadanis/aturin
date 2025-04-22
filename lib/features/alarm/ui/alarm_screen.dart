@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:relax_fik/features/alarm/models/alarm_model.dart';
-import 'package:relax_fik/features/alarm/services/alarm_service.dart';
-import 'package:relax_fik/features/alarm/ui/add_alarm_screen.dart';
-import 'package:relax_fik/features/meditation/models/meditation_model.dart';
+import 'package:aturin/features/alarm/models/alarm_model.dart';
+import 'package:aturin/features/alarm/services/alarm_service.dart';
+import 'package:aturin/features/alarm/ui/add_alarm_screen.dart';
+import 'package:aturin/features/meditation/models/meditation_model.dart';
 
 class AlarmScreen extends StatefulWidget {
   const AlarmScreen({Key? key}) : super(key: key);

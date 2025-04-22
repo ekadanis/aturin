@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:relax_fik/core/theme/app_theme.dart';
-import 'package:relax_fik/features/home/ui/home_screen.dart';
+import 'package:aturin/core/theme/app_theme.dart';
+import 'package:aturin/features/home/ui/home_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:alarm/alarm.dart';
-// import 'package:relax_fik/features/alarm/services/alarm_service.dart';
-import 'package:relax_fik/features/alarm/ui/alarm_ring_screen.dart';
+// import 'package:aturin/features/alarm/services/alarm_service.dart';
+import 'package:aturin/features/alarm/ui/alarm_ring_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
     );
     
     return MaterialApp(
-      title: 'relax_fik APP',
+      title: 'aturin APP',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       home: const HomeScreen(),

@@ -1,4 +1,4 @@
-# relax_fik
+# Aturin App
 
 A new Flutter project.
 

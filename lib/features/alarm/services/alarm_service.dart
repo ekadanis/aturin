@@ -1,8 +1,8 @@
 import 'package:alarm/alarm.dart' as alarm_package;
 import 'package:flutter/material.dart';
 import 'dart:io' show Platform;
-import 'package:relax_fik/core/database/database_helper.dart';
-import 'package:relax_fik/features/alarm/models/alarm_model.dart';
+import 'package:aturin/core/database/database_helper.dart';
+import 'package:aturin/features/alarm/models/alarm_model.dart';
 
 class AlarmService {
   final DatabaseHelper _databaseHelper = DatabaseHelper();
